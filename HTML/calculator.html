@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How To — Project Viridis</title>
+  <link rel="shortcut icon" href="../Media/logo.png" type="image/x-icon">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="../index.html">
+      <img src="../Media/logo.png" alt="Logo" class="img-fluid" style="max-height: 50px;">
+    </a>
+    <ul class="navbar-nav ms-3">
+      <li class="nav-item px-3"><a class="nav-link" href="../index.html">Home</a></li>
+      <li class="nav-item px-3"><a class="nav-link" href="overview.html">Learn More</a></li>
+      <li class="nav-item px-3 active"><a class="nav-link" href="calculator.html">How To</a></li>
+      <li class="nav-item px-3"><a class="nav-link" href="recycle.html">Recycle</a></li>
+      <li class="nav-item px-3"><a class="nav-link" href="involve.html">Get Involved</a></li>
+      <li class="nav-item px-3"><a class="nav-link" href="Aboutus.html">About Us</a></li>
+    </ul>
+    <div class="ms-auto">
+      <button class="btn btn-success px-4 fw-bold" data-bs-toggle="modal" data-bs-target="#loginModal"> Contact Us</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero-section position-relative">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../Media/banner1.png" class="d-block w-100 object-fit-cover" style="height: 600px;" alt="Garden">
+      </div>
+      <div class="carousel-item">
+        <img src="../Media/banner2.png" class="d-block w-100 object-fit-cover" style="height: 600px;" alt="Planting">
+      </div>
+      <div class="carousel-item">
+        <img src="../Media/banner3.png" class="d-block w-100 object-fit-cover" style="height: 600px;" alt="Seedlings">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <div class="hero-overlay text-white text-center">
+    <h1 class="fw-bold display-4">How To Garden</h1>
+    <p class="lead">Your step-by-step guide to growing a thriving eco-garden from scratch.</p>
+  </div>
+</header>
+
+<!-- INTRO -->
+<section class="py-5 bg-white">
+  <div class="container text-center" style="max-width: 750px;">
+    <p class="section-label" id="getstarted">Getting Started</p>
+    <h2 class="fw-bold mb-3">Anyone Can Grow Something</h2>
+    <p class="text-muted fs-5">
+      Whether you have a balcony, a backyard, or just a windowsill — gardening is one of the most
+      rewarding things you can do for yourself and the planet. Follow our guide below and you'll
+      have your first eco-garden up and running in no time.
+    </p>
+  </div>
+</section>
+
+<!-- STEP BY STEP -->
+<section class="faq-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-8 text-center">
+        <p class="section-label">The Process</p>
+        <h2 class="fw-bold">Step-by-Step Planting Guide</h2>
+        <p class="text-muted">Follow these steps and you'll be harvesting your own greens in weeks.</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="steps-wrapper d-flex flex-column gap-4">
+
+          <div class="step-card">
+            <div class="step-badge">1</div>
+            <div class="step-card-body">
+              <h5>Choose Your Space</h5>
+              <p>Find a spot that gets at least 6 hours of sunlight per day. This could be a garden bed, raised planter, pot, or even a sunny windowsill. South-facing spots tend to get the most light in Singapore's climate.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-badge">2</div>
+            <div class="step-card-body">
+              <h5>Pick the Right Soil</h5>
+              <p>Good soil is the foundation of a healthy garden. Use a well-draining potting mix rich in organic matter. Avoid regular ground soil for containers — it compacts too easily and can suffocate roots.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-badge">3</div>
+            <div class="step-card-body">
+              <h5>Select Your Plants</h5>
+              <p>For beginners, start with fast-growing, forgiving plants like lettuce, basil, chilli, or kangkong. These thrive in tropical climates and give you results quickly — which keeps you motivated to keep going.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-badge">4</div>
+            <div class="step-card-body">
+              <h5>Plant Your Seeds or Seedlings</h5>
+              <p>Sow seeds at the depth shown on the packet — usually 2–3× the seed's diameter. Space them out to allow airflow. If using seedlings, gently loosen the roots before placing them in the hole and firm the soil around the base.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-badge">5</div>
+            <div class="step-card-body">
+              <h5>Water Consistently</h5>
+              <p>Water at the base of the plant, not the leaves. Most plants prefer consistently moist (not waterlogged) soil. In Singapore's heat, morning watering is best — it lets plants absorb moisture before the midday sun kicks in.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-badge">6</div>
+            <div class="step-card-body">
+              <h5>Feed & Maintain</h5>
+              <p>After 2–3 weeks, start feeding with a diluted liquid fertiliser or compost tea every 1–2 weeks. Remove dead leaves, watch for pests, and give climbing plants like beans a simple trellis to grow on.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-badge">7</div>
+            <div class="step-card-body">
+              <h5>Harvest & Repeat</h5>
+              <p>Harvest leafy greens by cutting outer leaves and letting the plant continue growing. For fruit-bearing plants like chillies, pick regularly to encourage more growth. Save seeds from your best plants to start the next cycle!</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT TO PLANT -->
+<section class="info-section">
+  <div class="container">
+    <div class="row text-center mb-5">
+      <div class="col">
+        <p class="section-label">Plant Guide</p>
+        <h2 class="fw-bold">What Should You Grow?</h2>
+        <p class="text-muted">Overview of Plants for Gardens.</p>
+      </div>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+                <div class="plant-card">
+                          <div class="plant-card-icon">🌿</div>
+                                    <div class="plant-card-body">
+                                                <span class="plant-tag diff-beginner">Beginner</span>
+                                                            <h5>Herbs</h5>
+                                                                        <p>Basil, mint, pandan, and lemongrass are almost impossible to kill and grow back after cutting. Perfect for a windowsill.</p>
+                                                                                  </div>
+                                                                                          </div>
+                                                                                                </div>
+                                                                                                
+      <div class="col-md-4">
+        <div class="plant-card">
+          <div class="plant-card-icon">🥬</div>
+          <div class="plant-card-body">
+            <span class="plant-tag diff-beginner">Beginner</span>
+            <h5>Leafy Greens</h5>
+            <p>Kangkong, spinach, and kai lan grow fast and can be harvested repeatedly. Great for small pots or raised beds.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="plant-card">
+          <div class="plant-card-icon">🌶️</div>
+          <div class="plant-card-body">
+            <span class="plant-tag diff-intermediate">Intermediate</span>
+            <h5>Chillies & Peppers</h5>
+            <p>Chilli plants thrive in Singapore's heat. They take a few weeks but reward you with harvests for months.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="plant-card">
+          <div class="plant-card-icon">🍅</div>
+          <div class="plant-card-body">
+            <span class="plant-tag diff-intermediate">Intermediate</span>
+            <h5>Cherry Tomatoes</h5>
+            <p>Cherry tomatoes love the sun and produce heavily. Use a cage or trellis to support the vines as they grow.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="plant-card">
+          <div class="plant-card-icon">🥒</div>
+          <div class="plant-card-body">
+            <span class="plant-tag diff-intermediate">Intermediate</span>
+            <h5>Cucumbers</h5>
+            <p>Fast-growing climbers that need a trellis. Keep them well-watered and you'll have cucumbers within 6–8 weeks of planting.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="plant-card">
+          <div class="plant-card-icon">🎋</div>
+          <div class="plant-card-body">
+            <span class="plant-tag diff-advanced">Advanced</span>
+            <h5>Fruit Trees</h5>
+            <p>Dwarf banana, papaya, and starfruit can be grown in large containers. They take patience but transform any garden.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS YOU NEED -->
+<section class="faq-section">
+  <div class="container">
+    <div class="row text-center mb-5">
+      <div class="col">
+        <p class="section-label">Equipment</p>
+        <h2 class="fw-bold">Tools You'll Need</h2>
+        <p class="text-muted">You don't need much — here's what actually matters.</p>
+      </div>
+    </div>
+
+    <div class="row g-3">
+
+      <div class="col-md-6 col-lg-4">
+        <div class="tool-item">
+          <div class="tool-icon">🪣</div>
+          <div>
+            <h6>Watering Can or Hose</h6>
+            <p>Essential. Use a can with a rose head for gentle watering of seedlings.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="tool-item">
+          <div class="tool-icon">🧤</div>
+          <div>
+            <h6>Gardening Gloves</h6>
+            <p>Protect your hands from soil, thorns, and insects while working.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="tool-item">
+          <div class="tool-icon">🪚</div>
+          <div>
+            <h6>Trowel & Hand Fork</h6>
+            <p>For digging, planting, and loosening soil in containers or small beds.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="tool-item">
+          <div class="tool-icon">✂️</div>
+          <div>
+            <h6>Pruning Shears</h6>
+            <p>Clean cuts encourage healthy regrowth and stop disease from spreading.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="tool-item">
+          <div class="tool-icon">🪴</div>
+          <div>
+            <h6>Pots & Planters</h6>
+            <p>Make sure they have drainage holes. Size matters — bigger pots = more root space = bigger plants.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="tool-item">
+          <div class="tool-icon">🌱</div>
+          <div>
+            <h6>Potting Mix & Compost</h6>
+            <p>Good quality soil is non-negotiable. Mix in compost for extra nutrients.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TIPS & COMMON MISTAKES -->
+<section class="info-section">
+  <div class="container">
+    <div class="row g-5">
+
+      <div class="col-lg-6">
+        <p class="section-label">Pro Tips</p>
+        <h2 class="fw-bold mb-4">Tips for Success</h2>
+        <div class="d-flex flex-column gap-3">
+
+          <div class="tip-card">
+            <h6>🌤️ Start Small</h6>
+            <p>One or two pots beats an overwhelming setup. Master the basics before expanding your garden.</p>
+          </div>
+
+          <div class="tip-card">
+            <h6>💧 Water in the Morning</h6>
+            <p>Morning watering reduces evaporation and keeps leaves dry overnight, preventing fungal issues.</p>
+          </div>
+
+          <div class="tip-card">
+            <h6>♻️ Compost Your Scraps</h6>
+            <p>Kitchen scraps like veggie peels and eggshells can be composted and returned to your garden as free fertiliser.</p>
+          </div>
+
+          <div class="tip-card">
+            <h6>🐛 Check for Pests Weekly</h6>
+            <p>Catching pests early is far easier than dealing with an infestation. Flip leaves and check stems regularly.</p>
+          </div>
+
+          <div class="tip-card">
+            <h6>📓 Keep a Garden Journal</h6>
+            <p>Note what you planted, when, and how it grew. This is the fastest way to learn what works in your specific space.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <p class="section-label">Watch Out</p>
+        <h2 class="fw-bold mb-4">Common Mistakes</h2>
+        <div class="d-flex flex-column gap-3">
+
+          <div class="tip-card" style="border-left-color: #dc3545;">
+            <h6>🚫 Overwatering</h6>
+            <p>The #1 killer of beginner gardens. If the top inch of soil is still moist, don't water yet. Roots need air too.</p>
+          </div>
+
+          <div class="tip-card" style="border-left-color: #dc3545;">
+            <h6>🚫 Too Little Sunlight</h6>
+            <p>Most vegetables and herbs need 6+ hours of direct sun. A shady balcony will frustrate you — choose shade-tolerant plants instead.</p>
+          </div>
+
+          <div class="tip-card" style="border-left-color: #dc3545;">
+            <h6>🚫 Planting Too Close Together</h6>
+            <p>Crowded plants compete for nutrients and block airflow, leading to disease. Always check the recommended spacing.</p>
+          </div>
+
+          <div class="tip-card" style="border-left-color: #dc3545;">
+            <h6>🚫 Skipping Fertiliser</h6>
+            <p>Potting mix runs out of nutrients fast. Without regular feeding, growth stalls and plants become pale and weak.</p>
+          </div>
+
+          <div class="tip-card" style="border-left-color: #dc3545;">
+            <h6>🚫 Giving Up Too Early</h6>
+            <p>Germination can take 1–2 weeks. Slow growth is normal at the start — patience is the most important gardening skill.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <div class="cta-banner">
+      <h3>Ready to Get Your Hands Dirty?</h3>
+      <p>Explore our Learn More page for deeper dives into eco-gardening, <img src="../Media/labubu.png" class="inline-icon" alt="labubu icon"> composting, and sustainable living.</p>
+      <a href="overview.html" class="btn-cta-light">Explore Learn More →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-5 pb-5">
+      <div class="col-lg-4">
+        <img src="../Media/logo.png" alt="Project Viridis Logo" style="max-height: 45px;" class="mb-3">
+        <p class="footer-desc">A student-driven initiative rethinking waste for smarter, cleaner cities — starting with you.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/reel/C_dwFAcPNkT/?hl=en" target="_blank" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm.003 1.44c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.282.11-.705.24-1.486.275-.843.039-1.096.047-3.232.047s-2.39-.008-3.233-.047c-.78-.035-1.203-.166-1.485-.275a2.47 2.47 0 0 1-.92-.598 2.47 2.47 0 0 1-.598-.92c-.11-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.598-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.843-.038 1.097-.046 3.233-.046zm0 2.452a4.108 4.108 0 1 0 0 8.216 4.108 4.108 0 0 0 0-8.216zm0 6.775a2.667 2.667 0 1 1 0-5.334 2.667 2.667 0 0 1 0 5.334zm5.23-6.937a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0z"/>
+            </svg>
+          </a>
+          <a href="https://x.com/rickroll" target="_blank" aria-label="Twitter / X">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/@JodenWhite" target="_blank" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/Daim-Nickel-Penny/rick-roll-url" target="_blank" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 class="footer-heading">Navigate</h6>
+        <ul class="footer-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="overview.html">Learn More</a></li>
+          <li><a href="calculator.html">How To</a></li>
+          <li><a href="Aboutus.html">About Us</a></li>
+          <li><a href="involve.html">Get Involved</a></li>
+          <li><a href="recycle.html">Recycle</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 class="footer-heading">Topics</h6>
+        <ul class="footer-links">
+          <li><a href="overview.html#smart-waste">Smart Waste</a></li>
+          <li><a href="overview.html#recycling">Recycling</a></li>
+          <li><a href="overview.html#community">Community</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6 class="footer-heading">Get In Touch</h6>
+        <p class="footer-desc mb-3">Have questions or want to collaborate? Reach out to our team.</p>
+        <a href="mailto:hello@projectviridis.com" class="footer-email">hello@projectviridis.com</a>
+        <div class="footer-badge mt-3">
+          <span>🌿 Student Initiative · Myanmar</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="mb-0">&copy; 2026 Project Viridis. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+<!-- Contact Us Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content border border-success">
+      <div class="modal-header border-success">
+        <div>
+          <h5 class="modal-title text-success mb-0">Contact Us</h5>
+          <p class="text-muted small mb-0">We'd love to hear from you!</p>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label class="form-label small fw-semibold text-muted">Full Name <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" placeholder="e.g. John Tan">
+        </div>
+        <div class="mb-3">
+          <label class="form-label small fw-semibold text-muted">Email Address <span class="text-danger">*</span></label>
+          <input type="email" class="form-control" placeholder="e.g. john@email.com">
+        </div>
+        <div class="mb-3">
+          <label class="form-label small fw-semibold text-muted">Phone Number <span class="text-muted">(optional)</span></label>
+          <input type="tel" class="form-control" placeholder="e.g. +65 9123 4567">
+        </div>
+        <div class="mb-3">
+          <label class="form-label small fw-semibold text-muted">Message <span class="text-danger">*</span></label>
+          <textarea class="form-control" rows="4" placeholder="Tell us what's on your mind..."></textarea>
+        </div>
+        <button class="btn btn-success w-100 fw-bold mb-2">Send Message</button>
+        <p class="small text-center text-muted mb-0">We'll get back to you within 1–2 business days.</p>
+        <p class="small text-center text-muted mb-0">You can also contact us through our phone number which you can find by clicking <a href="tel:+65 67773777">here</a>.</p>
+        <p class="small text-center text-muted mb-0">You can also come directly to our address which you can access by clicking here <a href="https://www.google.com/maps/place/Insein+Prison/@16.8932459,96.0948681,1088m/data=!3m2!1e3!4b1!4m6!3m5!1s0x30c195c79464114b:0x2a97529f86b4705c!8m2!3d16.8932408!4d96.097443!16s%2Fm%2F03c6r8c?entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D">here</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
